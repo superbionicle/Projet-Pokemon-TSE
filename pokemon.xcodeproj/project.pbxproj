@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E9321FC2811989D00E57704 /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E9321F62811989D00E57704 /* utils.cpp */; };
+		8E9321FD2811989D00E57704 /* combat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E9321F72811989D00E57704 /* combat.cpp */; };
+		8E9321FE2811989D00E57704 /* pokedex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E9321F82811989D00E57704 /* pokedex.cpp */; };
+		8E9321FF2811989D00E57704 /* historique.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E9321F92811989D00E57704 /* historique.cpp */; };
 		8EE4464F272F0C2C0032135A /* bestiaire.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EE44649272F0C2C0032135A /* bestiaire.cpp */; };
 		8EE44650272F0C2C0032135A /* pokemon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EE4464C272F0C2C0032135A /* pokemon.cpp */; };
 		8EE44651272F0C2C0032135A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EE4464D272F0C2C0032135A /* main.cpp */; };
@@ -25,6 +29,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8E9321F42811989C00E57704 /* historique.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = historique.h; sourceTree = "<group>"; };
+		8E9321F52811989C00E57704 /* combat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = combat.h; sourceTree = "<group>"; };
+		8E9321F62811989D00E57704 /* utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = utils.cpp; sourceTree = "<group>"; };
+		8E9321F72811989D00E57704 /* combat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = combat.cpp; sourceTree = "<group>"; };
+		8E9321F82811989D00E57704 /* pokedex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pokedex.cpp; sourceTree = "<group>"; };
+		8E9321F92811989D00E57704 /* historique.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = historique.cpp; sourceTree = "<group>"; };
+		8E9321FA2811989D00E57704 /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+		8E9321FB2811989D00E57704 /* pokedex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pokedex.h; sourceTree = "<group>"; };
 		8EE4463C272F0BAA0032135A /* pokemon */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = pokemon; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EE44649272F0C2C0032135A /* bestiaire.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bestiaire.cpp; sourceTree = "<group>"; };
 		8EE4464A272F0C2C0032135A /* pokemon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pokemon.h; sourceTree = "<group>"; };
@@ -64,6 +76,14 @@
 		8EE4463E272F0BAA0032135A /* pokemon */ = {
 			isa = PBXGroup;
 			children = (
+				8E9321F72811989D00E57704 /* combat.cpp */,
+				8E9321F52811989C00E57704 /* combat.h */,
+				8E9321F92811989D00E57704 /* historique.cpp */,
+				8E9321F42811989C00E57704 /* historique.h */,
+				8E9321F82811989D00E57704 /* pokedex.cpp */,
+				8E9321FB2811989D00E57704 /* pokedex.h */,
+				8E9321F62811989D00E57704 /* utils.cpp */,
+				8E9321FA2811989D00E57704 /* utils.h */,
 				8EE44649272F0C2C0032135A /* bestiaire.cpp */,
 				8EE4464B272F0C2C0032135A /* bestiaire.h */,
 				8EE4464D272F0C2C0032135A /* main.cpp */,
@@ -130,9 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E9321FF2811989D00E57704 /* historique.cpp in Sources */,
 				8EE4464F272F0C2C0032135A /* bestiaire.cpp in Sources */,
 				8EE44650272F0C2C0032135A /* pokemon.cpp in Sources */,
+				8E9321FE2811989D00E57704 /* pokedex.cpp in Sources */,
 				8EE44651272F0C2C0032135A /* main.cpp in Sources */,
+				8E9321FC2811989D00E57704 /* utils.cpp in Sources */,
+				8E9321FD2811989D00E57704 /* combat.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
